@@ -9,8 +9,7 @@ public class Main{
         Scanner sc=new Scanner(System.in);
         base=sc.nextDouble();
         height=sc.nextDouble();
-        
         double ar=area(base,height);
-        System.out.printf("%.2f",ar);
+        System.out.printf("%.3f",ar);
     }
 }
