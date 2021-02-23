@@ -10,6 +10,7 @@ public class Main{
         base=sc.nextDouble();
         height=sc.nextDouble();
         double ar=area(base,height);
+        System.out.println("Area:");
         System.out.printf("%.3f",ar);
     }
 }
